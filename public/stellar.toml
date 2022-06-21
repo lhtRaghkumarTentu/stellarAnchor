@@ -1,0 +1,59 @@
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2022"
+SIGNING_KEY = "GBXDPJLCUZ6V43CYTMY3YJCXJERPNDINDY6OAIHWW2EHEP6FMMFYF67C"
+HORIZON_URL = "https://horizon-testnet.stellar.org"
+ACCOUNTS = [ "GBRZDRPULVPWPZFVRJYK4OMKY22QHZOD5KEUEGUALM2KADZ3U54QK6G6", "GARMGTBWPPAFGIM5OAN5ZIMFDMLEZ2S7VJUTXT5W6YEQIY56Q4XSE7MG" ]
+
+
+TRANSFER_SERVER = "http://localhost:8080/sep6"
+TRANSFER_SERVER_SEP0024 = "http://localhost:8080/sep24"
+WEB_AUTH_ENDPOINT = "http://localhost:8080/auth"
+KYC_SERVER = "http://localhost:8080/kyc"
+DIRECT_PAYMENT_SERVER = "http://localhost:8080/sep31"
+QUOTE_SERVER = "http://localhost:8080/sep38"
+
+[DOCUMENTATION]
+ORG_NAME = " "
+ORG_URL = " "
+ORG_LOGO = " "
+ORG_PHYSICAL_ADDRESS = " "
+ORG_OFFICIAL_EMAIL = " "
+ORG_GITHUB = " "
+ORG_TWITTER = " "
+ORG_KEYBASE = " "
+ORG_DESCRIPTION = " "
+
+
+[[PRINCIPALS]]
+name = " "
+email = " "
+github = " "
+twitter = " "
+Keybase = " "
+
+
+[[CURRENCIES]]
+code = "AstroDollar"
+image = " "
+issuer = "GBRZDRPULVPWPZFVRJYK4OMKY22QHZOD5KEUEGUALM2KADZ3U54QK6G6"
+is_asset_anchored = false
+anchor_asset_type = " "
+desc = "Stellar Reference Token (SRT) is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
+
+[[CURRENCIES]]
+code = "COINR"
+image = " "
+issuer = "GAFF6BP6J4RQ3RTVOPDQVUHHYUVCJ3WRKOVZEMYYNTJVF3L33PE4EIEM"
+is_asset_anchored = false
+anchor_asset_type = " "
+desc = "COINR is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
+
+[[CURRENCIES]]
+code = "ZeptaCoin"
+image = " "
+issuer = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
+is_asset_anchored = false
+anchor_asset_type = " "
+desc = "ZeptaCoin is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
